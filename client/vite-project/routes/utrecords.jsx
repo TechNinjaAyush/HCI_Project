@@ -1,10 +1,10 @@
 import React from 'react';
-import './index.css'; // Same CSS file
+import '../src/index.css'; // Same CSS file
 import Header from '../components/Header';
 import MainBody from '../components/Mainbody';
 import Sidebar from '../components/Sidebar';
 
-function App() {
+function utrecords() {
   return (
     <div>
       <Header />
@@ -16,4 +16,4 @@ function App() {
   );
 }
 
-export default App;
+export default utrecords;
